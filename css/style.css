@@ -1,0 +1,507 @@
+  .header {
+    /* background-color: #0e111b; /* Header background color */ */
+    color: ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+	width : 80%;
+	border-bottom: 1px solid #3c3131;
+	
+  }
+  
+  .clear{
+	  margin-bottom: 60px;
+  }
+  
+  .header .name {
+	margin-right: 0.5rem;
+	height: 2.5rem!important;
+  }
+
+  .header .logo {
+	color: rgb(72 255 145);
+    font-size: 2rem;
+    align-self: center;
+    line-height: 2rem;
+	align-items: center!important;
+	
+	text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+	
+	margin-left: 25px;
+	
+  }
+  
+  
+  .header .logo .logo-text{
+	  font-size: 2rem;
+	  
+  }
+  
+  .header .logo .logo-text a{
+	  text-decoration : none;
+	  color: rgb(72 255 145); /*  5, 0, 255*/
+  }
+
+  .header .logo img {
+    height: 40px; /* Adjust as needed */
+  }
+
+  .header .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .header .tvl {
+    margin-left: 10px;
+    background-color: #111420;
+    color: #d5d5d5;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 0.4rem 0.8rem;
+    outline: none;
+    border: 3px solid #919193;
+    font-weight: 700;
+    margin-left: 1rem;
+    justify-content: center;
+    line-height: 1rem !important;
+    font-size: 1rem !important;
+  }
+  
+  .header .tvl:hover{
+	  cursor:pointer;
+	  background:#303752 !important;
+  }
+
+  .header .nav {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .header .nav .nav-div {
+    margin: 0 10px;
+    color: rgb(255 255 255);
+    padding: 0.4rem 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 80px;
+    max-height: 36.8px;
+    font-family: "Kanit";
+    height: 15px;
+    line-height: 14px;
+    cursor: pointer;
+  }
+  
+
+  .header .connect-button {
+    cursor: pointer;
+    background-color: unset;
+    color: rgb(72 255 145);
+    padding: 10px 15px;
+    width: 11.688rem;
+    border-radius: 25px;
+    border: 1px solid rgb(72 255 145);
+    height: 36.8px;
+    line-height: 10px;
+    font-weight: 800;
+    font-size: 0.9em;
+  }
+  
+   .header .nav .menulast{
+    margin-left: 25px;
+    border: 1px solid rgb(72, 255, 145);
+    cursor: pointer;
+    background-color: rgb(72, 255, 145);
+    color: black;
+    padding: 10px 15px;
+    width: 11.688rem;
+    border-radius: 25px;
+    height: 36.8px;
+    line-height: 10px;
+    font-weight: 500;
+    font-size: 0.9em;
+   }
+
+  .header .nav .menu-button {
+	padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffa409;
+    font-size: 1.6em;
+    background: unset;
+    border-color: transparent!important;
+    font-weight: 800;
+  }
+
+  .header .nav .menu-down{
+    background-color: #d5d5d5!important;
+    position: absolute;
+    top: 82px;
+    right: 0;
+    padding: 1rem;
+    background: #d5d5d5;
+    border-radius: 0.5rem;
+    width: 150px;
+    max-width: 90vw;
+	display: none;
+	z-index: 100; /* Ensure it's above other content */
+
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+
+  @media (max-width: 1024px) {
+    .header .nav .nav-div {
+      display: none; /* Hide navigation links on smaller screens */
+    }
+	
+	  .header .logo .logo-text a svg{
+		  width: 100px; 
+	  }
+	  .header .logo .tvl{
+		  display: none; 
+		  
+	  }
+	  
+	  footer{
+		  display: none !important; 
+	  }
+	  
+	  
+	  .main-container{
+		  width : 100% !important;
+	  }
+	  
+	  body{
+		  background-repeat: round !important;
+		  background-size : unset !important;
+	  }
+		
+	 .modal-custom-here{
+		 width: 75% !important;
+	 }
+	 
+	 .modal-content{
+		width: 82% !important;
+		max-width: 90% !important;
+	 }
+	 
+	.header{
+		width: 100%;
+		height: 60px;
+		margin-right: 20px;
+	}
+	.modal-h2{
+		font-size: 1.2rem !important;
+	}
+	.addressListTITLE{
+		font-size:1em !important;
+	}
+  }
+
+
+  @media (max-width: 456px) {
+	.connect-button{
+		width: 9rem !important;
+		font-size: .8em !important;
+		width: unset !important;
+	}
+	.header .nav .menu-button{
+		width: unset !important;
+	}
+	
+	.header .logo{
+		margin:unset !important;
+	}
+	
+	.modal-h2{
+		font-size: 1.1rem !important;
+	}
+	.addressListTITLE{
+		font-size:0.9em !important;
+	}
+
+  }
+
+
+	
+.menu {
+	border-radius: 5px; /* Rounded corners */
+	color: ; /* Text color */
+	font-family: Arial, sans-serif; /* Font style */
+
+
+}
+
+.menu-item {
+
+	margin-bottom: 5px; /* Space between items */
+	padding: 5px; /* Padding inside items */
+	border-radius: 3px; /* Slightly rounded corners for items */
+
+	color: #111;
+	display: block;
+	font-weight: 700;
+	text-align: center;
+	font-family: Kanit,Avenir,Helvetica,Arial,sans-serif;
+	font-size: 12pt;
+	line-height: .9;
+	
+}
+
+.menu-item a{
+	text-decoration: none !important;
+	color:#111;
+}
+
+.menu-item:last-child {
+  margin-bottom: 0; /* No bottom margin for the last item */
+}
+
+
+
+
+.darkLight{
+	margin-top: 10px;
+}
+
+
+
+/* no need */
+.x-box-button-box{
+	background-color:unset;
+}
+
+.x-box-button-box-counter{
+	display:none;
+}
+
+
+
+
+
+.tw-from-gray-50 {
+    --tw-gradient-from: unset !important;
+    --tw-gradient-to: unset !important;
+    --tw-gradient-stops: unset !important;
+}
+
+.tw-bg-gray-50{
+	background-color: #1b1b1c;
+}
+
+.header .nav .nav-div,h1,p,tw-my-0,li,h2,.tw-py-2 span,.tw-py-2\.5{
+	color:;
+}
+
+.tw-py-1\.5{
+	background: black;
+}
+
+.tw-border-gray-300{
+	--tw-border-opacity : unset !important;
+}
+
+.x-box{
+    background: #28272a;
+    border: 0.1px solid #585858;
+}
+
+.x-box-item-box{
+    background: #3a3a3a;
+    border: unset;
+}
+
+.x-box-item-box-text{
+    color: ;
+}
+
+.tw-flex .tw-gap-4 .tw-items-center .tw-justify-between .tw-flex-wrap .tw-rounded-lg .tw-p-4 .tw-mt-4 .tw-bg-purple-2{
+	background: unset;
+}
+
+.x-box-button {
+    background: ;
+    border-radius: 25px;
+    font-weight: 600;
+    color: black;
+    font-size: 1.2em;
+}
+
+.x-box-button:hover{
+	background: #48FF91;
+    border-radius: 25px;
+	color:black;
+	opacity:1;
+}
+.progress-bar__value {
+    background-color: #48FF91;
+}
+
+
+
+.x-box-live-circle{
+	background: red ;
+}
+
+.x-box-top-box{
+	background: unset;
+}
+
+.x-box-down-hr{
+	border-top: 1px solid ;
+}
+
+
+.x-box-minted{
+	color: #9b9b9b;
+}
+
+#global-toolbar{
+	height: 30px;
+}
+
+
+.x-box-label{
+    border-radius: 7px !important;
+    background: #5e5555;
+    border: unset;
+}
+
+
+
+
+
+
+.minted-details{
+	color: #52eb41;
+    font-size: 0.9rem;
+    margin: 8px;
+    list-style-type: none;
+    padding-left: 0;
+    border-bottom: 1px solid #363434;
+}
+.timeSec{
+	font-size:0.8em;
+	color:white;
+}
+
+
+
+.emoji-list {
+    list-style-type: none; /* Removes the default bullets */
+    padding-left: 0; /* Adjusts padding if needed */
+	margin-left: 0;
+}
+
+.emoji-list li:before {
+    content: '✔️'; /* Replace with your desired emoji */
+    margin-right: 10px; /* Adds space between the emoji and the text */
+}
+
+
+
+
+
+
+
+/* Style for the modal background */
+.__modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999999999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal content box */
+.modal-content {
+    margin: 15% auto;
+    padding: 20px;
+    width: 25%;
+    max-width: 50%;
+    z-index: 99999;
+    overflow: hidden;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    background: #28272a;
+    border: 0.1px solid #585858;
+	
+
+}
+.modal-content p{
+    margin-top: 1rem;
+}
+
+/* The Close Button (x) */
+.close-button {
+    color: #fff;
+    float: right;
+    font-size: 30px;
+    position: absolute;
+    right: 16px;
+    top: -1px;
+}
+.modal-button{
+    text-align: center;
+    line-height: 10px;
+}
+.modal-button button{
+	font-size: 1rem;
+    background-color: rgb(213, 213, 213);
+    color: rgb(41, 44, 55);
+    border-radius: 0.6rem;
+    font-weight: bold;
+    padding: 12px;
+    margin: auto auto auto 1px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: unset !important;
+	
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.modal-button button:hover{
+	opacity: 0.9;
+}
+
+
+
+.modal-h2{
+    font-weight: 600;
+	font-size: 1.2rem;
+}
+
+
+.modal-p{
+	font-weight: 200;
+	font-size: .9375rem;
+}

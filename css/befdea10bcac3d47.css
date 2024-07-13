@@ -1,0 +1,30 @@
+.NumberIncreaseSelection_multi__rwmPp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box
+}
+
+.NumberIncreaseSelection_multi__rwmPp:focus {
+    outline: none;
+    border: 1px solid #595280
+}
+
+.NumberIncreaseSelection_multi__rwmPp .NumberIncreaseSelection_no-border__HkVfB {
+    border: 1px solid transparent
+}
+
+.NumberIncreaseSelection_multi__rwmPp>input {
+    text-align: center;
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 30px
+}
+
+.NumberIncreaseSelection_multi__rwmPp>button {
+    padding: 10px;
+    margin-right: 5px
+}
